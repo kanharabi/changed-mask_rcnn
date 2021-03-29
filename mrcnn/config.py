@@ -264,12 +264,12 @@ ROOT_DIR = '../data/'
 MODEL_DIR = '../data/logs'
 
 
-def load_img(fname, color='RGB'):
+# def load_img(fname, color='RGB'):
 
-    img = cv2.imread(fname)
-    img = cv2.cvtColor(img, cv2.COLOR_BGRA2RGB)
-    if color == 'GRAY':
-        img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-        img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB).astype(np.float32)
+#     img = cv2.imread(fname)
+#     img = cv2.cvtColor(img, cv2.COLOR_BGRA2RGB)
+#     if color == 'GRAY':
+#         img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+#         img = cv2.cvtColor(img, cv2.COLOR_GRAY2RGB).astype(np.float32)
 
-    return img  
+#     return img  
