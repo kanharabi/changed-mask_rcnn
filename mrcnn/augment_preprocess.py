@@ -8,7 +8,7 @@ author: Inom Mirzaev
 github: https://github.com/mirzaevinom
 """
 
-from config import *
+from mrcnn.config import *
 
 
 from xml.dom import minidom
