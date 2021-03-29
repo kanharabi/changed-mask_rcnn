@@ -47,10 +47,10 @@ import keras.initializers as KI
 import keras.engine as KE
 import keras.models as KM
 
-import utils
+from mrcnn import utils
 
-from augment_preprocess import fix_crop_transform, random_crop_transform, relabel_multi_mask
-from augment_preprocess import random_shift_scale_rotate_transform, clean_masks
+from mrcnn.augment_preprocess import fix_crop_transform, random_crop_transform, relabel_multi_mask
+from mrcnn.augment_preprocess import random_shift_scale_rotate_transform, clean_masks
 
 # Requires TensorFlow 1.3+ and Keras 2.0.8+.
 from distutils.version import LooseVersion
