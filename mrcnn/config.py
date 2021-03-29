@@ -16,9 +16,9 @@ import os
 import sys
 import time
 import numpy as np
-import model as modellib
+from mrcnn import model as modellib
 import math
-import utils
+from mrcnn import utils
 import cv2
 import pandas as pd
 from skimage.color import rgb2hed
