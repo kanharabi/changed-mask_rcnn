@@ -7,9 +7,9 @@ automate nucleus detection from biomedical images.
 author: Inom Mirzaev
 github: https://github.com/mirzaevinom
 """
-from config import *
-from model import log
-from train import train_validation_split, KaggleDataset
+from mrcnn.config import *
+from mrcnn.model import log
+from mrcnn.train import train_validation_split, KaggleDataset
 
 import matplotlib.pyplot as plt
 
@@ -22,7 +22,7 @@ from skimage.morphology import dilation, erosion
 
 import random
 import pandas as pd
-from metrics import mean_iou
+from mrcnn.metrics import mean_iou
 from tqdm import tqdm
 
 plt.switch_backend('agg')
